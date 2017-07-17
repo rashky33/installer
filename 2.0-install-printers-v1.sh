@@ -2,12 +2,13 @@
 set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Special thanks to Erik Dubois. His work makes me inspire to try to create my own. I am not a programmer but self study for this area.
-# Author 	: 	rashky
+# Special thanks to Erik Dubois. His work makes me inspire to try to create my own. I am not a programmer but self 
+# study for this area.
+# 
 ##################################################################################################################
 ##################################################################################################################
 #
-#   just trying to test some personal used installer
+#   just trying to test some personal most used packages.
 #
 ##################################################################################################################
 
@@ -19,6 +20,6 @@ systemctl start org.cups.cupsd.service
 
 
 echo "################################################################"
-echo "#########   printer management software installed     ##########"
+echo "#########   printer software has been installed       ##########"
 echo "################################################################"
 
