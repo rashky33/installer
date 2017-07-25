@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 #This script toggles my monitor settings. I used external monitor for
 #projectors, TV, or extra monitor. This automatically connect and disconnect 
 #monitor.
