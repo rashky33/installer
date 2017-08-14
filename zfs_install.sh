@@ -46,8 +46,12 @@ fi
 #----------------------------------------------------------------------------------
 sudo modprobe zfs
 
-# cp /etc/zfs/zpool.cache /mnt/etc/zfs/zpool.cache
+cp /etc/zfs/zpool.cache /mnt/etc/zfs/zpool.cache
 
+echo "########################################################################"
+echo "Dont forget to check if this file exist & if not manually copy this file"
+echo " cp /etc/zfs/zpool.cache /mnt/etc/zfs/zpool.cache"
+echo "########################################################################"
 echo "ZFS has been activated"
 
 sudo systemctl enable zfs.target
